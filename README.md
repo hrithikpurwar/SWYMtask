@@ -4,18 +4,20 @@
 ### Output
 
 <b>I) Flask Deployed (Content based recommendation based on Product Name)</b>
-![Screenshot 2023-08-08 at 8 53 02 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/d82d5a3e-988e-4d4a-8bdb-8d74c87feea1)
+![Screenshot 2023-08-08 at 9 16 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/b7246171-cf86-4d96-8362-dd0a1129ce72)
 
 <b>II) Jupyter Notebook (Content based recommendation based on Product Name with Min Price and Max price Filter)</b><br>
-![Screenshot 2023-08-08 at 8 55 28 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/89e8331f-96de-4e41-a6d4-4ea60d9c8269)
+![Screenshot 2023-08-08 at 9 17 06 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/38c3e43c-6613-4183-8b15-d77f79e87c7a)
 
 <b>III) Jupyter Notebook (Content based recommendation based on Product Name with Min Price, Max price, and Min discount Filter)</b><br>
-![Screenshot 2023-08-08 at 8 55 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/4a42e0d4-a272-448e-9b27-8f96c9458eee)
+![Screenshot 2023-08-08 at 9 17 32 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/a47eb65d-451b-474f-b1fe-fbc5b20eeeca)
 
 <b>IV) Jupyter Notebook (Content based recommendation based on Product Name)</b><br>
-![Screenshot 2023-08-08 at 8 53 59 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/9c545564-dbc3-46f3-81cb-2818f6640cff)
+![Screenshot 2023-08-08 at 9 17 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/1de36a39-63c2-487b-92d1-ef9b7e4f37fa)
 
 <b>V) Error Handling (when product name is not present)</b><br>
+![Screenshot 2023-08-08 at 9 18 07 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/ec7a226f-f45c-414e-9d38-bb26363b46ae)
+
 
 ### Choice of Recommender System
 
