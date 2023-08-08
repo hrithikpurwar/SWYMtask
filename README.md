@@ -9,7 +9,7 @@ It has been integrated with frontend using Flask routes.
 
 ## Table of Contents
 
-- [Screenshots and Video Demo](#screenshots)
+- [Screenshots and Video Demo](#screenshots-and-video-demo)
 - [Choice of Recommender System](#choice-of-recommender-system)
 - [Process Flow](#process-flow)
 - [Technologies Used](#technologies-used)
