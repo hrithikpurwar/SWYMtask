@@ -48,6 +48,8 @@ Based on the given problem statement, we need to see user's preference / product
 So the most suitable one here would be <b>Content Based Recommender system</b>
 
 ## Process Flow
+![Frame 80](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/03753670-41be-4669-b636-012f223608f4)
+
 
 ## Technologies Used
 
