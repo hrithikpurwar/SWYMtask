@@ -1,5 +1,5 @@
 # 20BCE2004 - Hrithik Purwar - SWYM Round 2 BUILD
-## Chosen Task - Product Recommender System
+## Task - Product Recommender System
 
 ## Project Overview
 
@@ -9,7 +9,7 @@ It has been integrated with frontend using Flask routes.
 
 ## Table of Contents
 
-- [Screenshots](#screenshots)
+- [Screenshots and Video Demo](#screenshots)
 - [Choice of Recommender System](#choice-of-recommender-system)
 - [Process Flow](#process-flow)
 - [Technologies Used](#technologies-used)
@@ -17,21 +17,24 @@ It has been integrated with frontend using Flask routes.
 - [Notebook Link](#notebook-link)
 - [How to Run](#how-to-run)
 
-## Screenshots
+## Screenshots and Video Demo
 
-<b>I) Flask Deployed (Content based recommendation based on Product Name)</b>
+### Video Demo
+Watch a video demo of the project [here](https://drive.google.com/drive/folders/1nTcnBzXUb1i1AuDOC3ensUmDFnok8IKu?usp=sharing).
+
+### I) Flask Deployed (Content based recommendation based on Product Name)</b>
 ![Screenshot 2023-08-08 at 9 16 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/b7246171-cf86-4d96-8362-dd0a1129ce72)
 
-<b>II) Jupyter Notebook (Content based recommendation based on Product Name with Min Price and Max price Filter)</b><br>
+### II) Jupyter Notebook (Content based recommendation based on Product Name with Min Price and Max price Filter)</b><br>
 ![Screenshot 2023-08-08 at 9 17 06 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/38c3e43c-6613-4183-8b15-d77f79e87c7a)
 
-<b>III) Jupyter Notebook (Content based recommendation based on Product Name with Min Price, Max price, and Min discount Filter)</b><br>
+### III) Jupyter Notebook (Content based recommendation based on Product Name with Min Price, Max price, and Min discount Filter)</b><br>
 ![Screenshot 2023-08-08 at 9 17 32 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/a47eb65d-451b-474f-b1fe-fbc5b20eeeca)
 
-<b>IV) Jupyter Notebook (Content based recommendation based on Product Name)</b><br>
+### IV) Jupyter Notebook (Content based recommendation based on Product Name)</b><br>
 ![Screenshot 2023-08-08 at 9 17 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/1de36a39-63c2-487b-92d1-ef9b7e4f37fa)
 
-<b>V) Error Handling (when product name is not present)</b><br>
+### V) Error Handling (when product name is not present)</b><br>
 ![Screenshot 2023-08-08 at 9 18 07 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/ec7a226f-f45c-414e-9d38-bb26363b46ae)
 
 
