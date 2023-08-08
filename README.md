@@ -5,6 +5,8 @@
 
 This project aims to create a product recommendation system using a content-based approach. The system recommends products to users based on the similarity between product names, with optional filters for price and discount.
 
+It has been integrated with frontend using Flask routes.
+
 ## Table of Contents
 
 - [Screenshots](#screenshots)
