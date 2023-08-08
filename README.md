@@ -15,6 +15,8 @@
 <b>IV) Jupyter Notebook (Content based recommendation based on Product Name)</b><br>
 ![Screenshot 2023-08-08 at 8 53 59 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/9c545564-dbc3-46f3-81cb-2818f6640cff)
 
+<b>V) Error Handling (when product name is not present)</b><br>
+
 ### Choice of Recommender System
 
 I had 3 choices of recommender system
@@ -26,6 +28,38 @@ I had 3 choices of recommender system
 Based on the given problem statement, we need to see user's preference / product and recommend similar products.
 
 So the most suitable one here would be <b>Content Based Recommender system</b>
+
+### Process Flow of Project
+
+### Technologies/Libraries Used
+
+Jupyter Notebook
+1. Numpy
+2. Pandas
+3. NLTK (Natural Language ToolKit)
+4. TfidfVectorizer
+5. cosine_similarity
+
+WebApp
+1. Flask
+2. HTML
+3. CSS
+
+
+### DataSet Used
+https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products
+
+### Notebook Link
+https://www.kaggle.com/hrithikpurwar/swym-task
+
+### How to Run
+1. Clone the repository
+2. Open the folder in Terminal
+3. Run command 'pip install requirements.txt'
+4. Run command 'flask run'
+5. The webpage will open up on localhost port
+
+
 
 
 
