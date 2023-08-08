@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product Recommendation</title>
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+body{
+    overflow: hidden;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2 {
+    text-align: center;
+    color: #333333;
+}
+form {
+    text-align: center;
+}
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333333;
+}
+input[type="text"] {
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right: 30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #45a049;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+    </style>
+</head>
+<body>
+    <h1>Product Recommendation</h1>
+    <form method="POST">
+        <label for="product_name">Enter Product Name:</label>
+        <input type="text" id="product_name" name="product_name" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    {% if product_name %}
+    <h2>Recommended Products for {{ product_name }}:</h2>
+    <ul>
+        {% for product in recommended_products %}
+        <li>{{ product }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+</body>
+</html>
