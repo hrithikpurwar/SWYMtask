@@ -1,7 +1,21 @@
 # 20BCE2004 - Hrithik Purwar - SWYM Round 2 BUILD
 ## Chosen Task - Product Recommender System
 
-### Output
+## Project Overview
+
+This project aims to create a product recommendation system using a content-based approach. The system recommends products to users based on the similarity between product names, with optional filters for price and discount.
+
+## Table of Contents
+
+- [Screenshots](#screenshots)
+- [Choice of Recommender System](#choice-of-recommender-system)
+- [Process Flow](#process-flow)
+- [Technologies Used](#technologies-used)
+- [Dataset](#dataset)
+- [Notebook Link](#notebook-link)
+- [How to Run](#how-to-run)
+
+## Screenshots
 
 <b>I) Flask Deployed (Content based recommendation based on Product Name)</b>
 ![Screenshot 2023-08-08 at 9 16 48 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/b7246171-cf86-4d96-8362-dd0a1129ce72)
@@ -19,7 +33,7 @@
 ![Screenshot 2023-08-08 at 9 18 07 PM](https://github.com/hrithikpurwar/SWYMtask/assets/72293452/ec7a226f-f45c-414e-9d38-bb26363b46ae)
 
 
-### Choice of Recommender System
+## Choice of Recommender System
 
 I had 3 choices of recommender system
 
@@ -31,35 +45,43 @@ Based on the given problem statement, we need to see user's preference / product
 
 So the most suitable one here would be <b>Content Based Recommender system</b>
 
-### Process Flow of Project
+## Process Flow
 
-### Technologies/Libraries Used
+## Technologies Used
 
-Jupyter Notebook
-1. Numpy
-2. Pandas
-3. NLTK (Natural Language ToolKit)
-4. TfidfVectorizer
-5. cosine_similarity
+### Jupyter Notebook
+- Numpy
+- Pandas
+- NLTK (Natural Language ToolKit)
+- TfidfVectorizer
+- Cosine Similarity
 
-WebApp
-1. Flask
-2. HTML
-3. CSS
+### Web App
+- Flask
+- HTML
+- CSS
 
 
-### DataSet Used
-https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products
+## Dataset
 
-### Notebook Link
-https://www.kaggle.com/hrithikpurwar/swym-task
+The project utilizes the [Flipkart Products Dataset](https://www.kaggle.com/datasets/PromptCloudHQ/flipkart-products) from Kaggle.
 
-### How to Run
-1. Clone the repository
-2. Open the folder in Terminal
-3. Run command 'pip install requirements.txt'
-4. Run command 'flask run'
-5. The webpage will open up on localhost port
+## Notebook Link
+
+The detailed implementation and analysis can be found in the [Jupyter Notebook](https://www.kaggle.com/hrithikpurwar/swym-task).
+
+## How to Run
+
+1. Clone the repository.
+2. Navigate to the project directory in your terminal.
+3. Install required dependencies with `pip install -r requirements.txt`.
+4. Run the Flask app with `flask run`.
+5. Access the web app in your browser at `http://localhost:5000`.
+
+
+## Acknowledgments
+
+Special thanks to the [SWYM](https://swym.it) team for the opportunity to work on this task.
 
 
 
